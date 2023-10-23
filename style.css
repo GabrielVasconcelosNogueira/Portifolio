@@ -1,0 +1,154 @@
+*{
+    /*Resetando algumas propriedades de todos os seletores*/
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header{
+    /*Estilização do cabeçalho */
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    /*Estilização do corpo da pagina*/
+    background-color: #46630F; /* Para quando não suportar o gradiente */
+    background-image: linear-gradient(to right top, #433a3f, #563b40, #663d36, #6c4426, #665014, #675d17, #656a1e, #617829, #76883b, #8b984d, #a0a95f, #b5ba72);
+}
+
+#menu{
+    /*Estilização do menu definindo a orientação, posição e espaçamento entre os elementos*/
+    display: flex;
+    height: 10vh;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: share tech mono, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #46630F;
+    
+}
+
+#menu > a {
+    /*Estilização dos itens do menu*/
+    color: #F7F0F5;
+    text-decoration: none;
+}
+
+.conteudo{
+    /*Estilização padrão dos conteudos de cada item do menu*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4{
+    /*Estilização dos titulos*/
+    font-family: Share Tech Mono, monospace;
+    font-size: 3em;
+    margin: 50px 0px 50px 0px;
+}
+
+.desc{
+    /*Estilização padrão das divs com textos e imagens*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.desc > p{
+    /*Estilização dos textos */
+    width: 40%;
+    font-family: Share Tech;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: #F7F0F5;
+    
+}
+
+.desc > img{
+    /*Estilização das imagens*/
+    width: 300px ;
+    height: 300px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+
+.desc > div{
+    /*Estilização das divs onde ficaram os projetos*/
+    border: 5px solid white;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Share Tech, monospace;
+    color: #f7f0f5;
+    background-color: gray;
+}
+
+
+aside{
+    /*Estilização e posicionamento do link de referencia da imagem*/
+    display: flex;
+    align-items: center;
+    height: 20px;
+    position: absolute;
+    margin: 35% 95% 10% 60% ;
+    width: 300px;
+    
+}
+
+
+form{
+    /*Estilização do formulario de contato */
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+label{
+    font-size: 20px;
+    font-family: Share Tech Mono, monospace;
+    font-weight: 700;
+    color: #F7F0F5;
+    margin: 5px;
+}
+
+input{
+    height: 30px;
+    font-size: 20px;
+    font-family: Share Tech, monospace;
+    font-weight: 400;
+
+}
+
+textarea{
+    height: 200px;
+    font-size: 20px;
+    font-family: Share Tech, monospace;
+    font-weight: 400;
+}
+
+button{
+    height: 50px;
+    font-size: 20px;
+    font-family: Share Tech, monospace;
+    font-weight: 700;
+    background-color: #46630F; 
+    color:  #F7F0F5;
+
+    
+}
+
